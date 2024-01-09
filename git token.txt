@@ -1,3 +1,22 @@
 git token key
 
 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
+
+
+steps:
+
+echo "# myansible4thjan24" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git config --global user.name "pune2"
+git config --global user.email "adityaaadik.aaa18@gmail.com"
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/pune2/myansible4thjan24.git
+git push -u origin main
+
+
+git add -A
+git commit -m “comment”
+git push
